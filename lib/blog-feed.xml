@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Latest blog posts</title>
+    <description>Latest blog posts from this blog</description>
+    <link>/</link>
+    {{#posts}}
+    <item>
+      <title>{{title}}</title>
+      <description>{{html}}</description>
+      <link>./{{slug}}</link>
+      <pubDate>{{created}}</pubDate>
+    </item>
+    {{/posts}}
+  </channel>
+</rss>
