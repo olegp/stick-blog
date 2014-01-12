@@ -15,7 +15,7 @@
     "mongo-sync":">=0.2.3",
     "mustache":">=0.7.3",
     "stick":">=0.1.0",
-    "github-flavored-markdown": ">= 1.0.0"
+    "marked": ">= 0.3.0"
   },
   "devDependencies":{
     "common-node":">=0.2.0"
