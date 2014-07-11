@@ -2,7 +2,7 @@
   "name":"stick-blog",
   "keywords":["blog","mongodb", "stick","common-node"],
   "description":"Simple MongoDB backed blog engine built using Stick middleware",
-  "version":"1.0.0",
+  "version":"1.0.1",
   "repository":{
     "type":"git",
     "url":"git://github.com/olegp/stick-blog.git"
