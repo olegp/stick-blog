@@ -1,23 +1,28 @@
 {
-  "name":"stick-blog",
-  "keywords":["blog","mongodb", "stick","common-node"],
-  "description":"Simple MongoDB backed blog engine built using Stick middleware",
-  "version":"1.0.3",
-  "repository":{
-    "type":"git",
-    "url":"git://github.com/olegp/stick-blog.git"
+  "name": "stick-blog",
+  "keywords": [
+    "blog",
+    "mongodb",
+    "stick",
+    "common-node"
+  ],
+  "description": "Simple MongoDB backed blog engine built using Stick middleware",
+  "version": "1.0.4",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/olegp/stick-blog.git"
   },
-  "main":"./lib/server.js",
-  "engines":{
-    "node":"*"
+  "main": "./lib/server.js",
+  "engines": {
+    "node": "*"
   },
-  "dependencies":{
-    "mongo-sync":">=0.2.3",
-    "mustache":">=0.7.3",
-    "stick":">=0.1.0",
+  "dependencies": {
+    "mongo-sync": ">=0.2.3",
+    "mustache": ">=0.7.3",
+    "stick": ">=0.1.0",
     "marked": ">= 0.3.0"
   },
-  "devDependencies":{
-    "common-node":">=0.2.0"
+  "devDependencies": {
+    "common-node": ">=0.2.0"
   }
 }
