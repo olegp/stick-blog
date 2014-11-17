@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git://github.com/olegp/stick-blog.git"
   },
-  "main": "./lib/server.js",
+  "main": "./lib/main.js",
   "engines": {
     "node": "*"
   },
